@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galería Histórica &amp; Videos · 15° Congreso de Turismo Médico 2026</title>
+  <meta name="description" content="Galería fotográfica y memoria audiovisual de las ediciones anteriores del Congreso de Turismo Médico en México: Cozumel, Aguascalientes, Ciudad Juárez y más." />
+
+  <!-- Google Fonts: Playfair Display, DM Sans & Chakra Petch -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/brand_logo_300.png" />
+
+  <!-- External Stylesheet (Inlined by build script) -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="gallery-page">
+  <div class="site" id="top">
+
+    <!-- Ambient Interactive Smoke Background Canvas -->
+    <div class="smoke-ambient-canvas" aria-hidden="true">
+      <div class="smoke-ambient-layer"></div>
+      <div class="smoke-spotlight-layer"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="nav scrolled" id="mainNav" style="background: rgba(6, 26, 43, 0.95); backdrop-filter: blur(12px);">
+      <div class="nav-container">
+        <a class="brand" href="index.html#top" aria-label="15° Congreso de Turismo Médico">
+          <img src="assets/brand_logo_600.png" alt="15° Congreso de Turismo Médico" class="brand-logo-img" width="280" height="42" />
+        </a>
+
+        <nav class="nav-links" aria-label="Navegación principal">
+          <a class="nav-link lbl" href="index.html#business"><span class="t">Negocios B2B</span></a>
+          <a class="nav-link lbl" href="agenda.html"><span class="t">Agenda</span></a>
+          <a class="nav-link lbl" href="expo.html"><span class="t">Expo</span></a>
+          <a class="nav-link lbl" href="sede.html"><span class="t">Sede Oficial</span></a>
+          <a class="nav-link lbl active" href="#top"><span class="t">Galería</span></a>
+          <a class="nav-link lbl" href="index.html#contacto"><span class="t">Contacto</span></a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="pill enter-pill lbl btn-register-trigger" type="button" aria-haspopup="dialog" data-type="Registro General">
+            <svg class="ico" viewBox="0 0 7 11" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="0" y="0" width="4" height="5"/><rect x="3" y="4" width="4" height="4"/><rect x="0" y="7" width="4" height="4"/></svg>
+            <span class="t">REGISTRARME</span>
+          </button>
+          <button class="pill menu-pill lbl" id="mobileMenuBtn" type="button" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobileDrawer">
+            <svg class="ico" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="0" y="0" width="4" height="4" rx=".8"/><rect x="6" y="0" width="4" height="4" rx=".8"/><rect x="0" y="6" width="4" height="4" rx=".8"/><rect x="6" y="6" width="4" height="4" rx=".8"/></svg>
+            <span class="t">MENÚ</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Menú de navegación">
+      <div class="drawer-backdrop" id="drawerBackdrop"></div>
+      <div class="drawer-content">
+        <div class="drawer-header">
+          <img src="assets/brand_logo_600.png" alt="Congreso de Turismo Médico" class="drawer-logo" style="height: 32px; width: auto;" />
+          <button class="drawer-close" id="drawerCloseBtn" aria-label="Cerrar menú">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+        <nav class="drawer-nav" aria-label="Navegación móvil">
+          <a class="drawer-link" href="index.html#business"><span>01</span> Negocios B2B</a>
+          <a class="drawer-link" href="agenda.html"><span>02</span> Agenda de Conferencias</a>
+          <a class="drawer-link" href="expo.html"><span>03</span> Pabellón Expo</a>
+          <a class="drawer-link" href="sede.html"><span>04</span> Sede Oficial 2026</a>
+          <a class="drawer-link active" href="#top"><span>05</span> Galería Histórica</a>
+          <a class="drawer-link" href="index.html#contacto"><span>06</span> Registro &amp; Contacto</a>
+        </nav>
+        <div class="drawer-footer">
+          <p class="drawer-phone">📞 (55) 3083 3864</p>
+          <p class="drawer-meta">2 &amp; 3 DE DICIEMBRE 2026 · MÉXICO</p>
+          <button class="button primary btn-register-trigger w-full" type="button" data-type="Registro General">
+            Solicitar Registro <span>→</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+
+      <!-- ============================================================
+           HERO SECTION: EDITORIAL OVERVIEW
+           ============================================================ -->
+      <section class="gallery-hero-section">
+        <div class="container relative-z">
+          <div class="section-meta light-meta">
+            <span class="section-number">MEMORIA HISTÓRICA</span>
+            <span class="section-tag">15 EDICIONES INTERNACIONALES</span>
+          </div>
+
+          <p class="eyebrow gold-eyebrow">VIDEOS &amp; FOTOGRAFÍA OFICIAL · TRAYECTORIA CONTINUA</p>
+          <h1 class="editorial-headline text-white" style="font-size: clamp(38px, 4.5vw, 64px); max-width: 960px;">
+            15 Años de liderazgo &amp;<br />
+            <em class="headline-accent gold-accent">conexiones que transforman vidas.</em>
+          </h1>
+
+          <p class="hero-lead text-light" style="font-size: clamp(16px, 1.3vw, 19px); max-width: 860px; line-height: 1.7; margin-top: 20px;">
+            Explora la memoria gráfica y audiovisual de nuestras ediciones anteriores: conferencias magistrales, pabellones de exposición, misiones comerciales y miles de encuentros de negocios bilaterales B2B celebrados en las sedes más emblemáticas de México.
+          </p>
+
+          <div style="margin-top: 32px; display: flex; gap: 16px; flex-wrap: wrap; align-items: center;">
+            <a href="#videos" class="button primary">
+              <span>VER VIDEOS DE EDICIONES</span>
+              <span class="btn-arrow">↓</span>
+            </a>
+            <a href="#fotos" class="button ghost" style="color:#fff; border-color: rgba(255,255,255,0.3);">
+              <span>GALERÍA FOTOGRÁFICA</span>
+              <span class="btn-arrow">↓</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           VIDEOS SECTION: AUTHENTIC YOUTUBE EMBEDS FROM REFERENCE
+           ============================================================ -->
+      <section class="gallery-videos-section" id="videos">
+        <div class="container">
+          <div class="section-meta light-meta">
+            <span class="section-number">VIDEO MEMORIA</span>
+            <span class="section-tag">EDICIONES ANTERIORES</span>
+          </div>
+
+          <h2 class="editorial-headline text-white" style="font-size: clamp(30px, 3.5vw, 48px);">
+            Videos de nuestras<br />
+            <em class="headline-accent gold-accent">ediciones anteriores.</em>
+          </h2>
+          <p style="color: rgba(255,255,255,0.75); max-width: 700px; margin-top: 10px; font-family: var(--font-sans);">
+            Revive las conferencias, paneles de discusión y testimonios de compradores y facilitadores internacionales en las cumbres pasadas.
+          </p>
+
+          <!-- Featured Video: Cozumel 2019 / Official Edition -->
+          <div style="margin-top: 40px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 22px; padding: clamp(20px, 3vw, 36px); box-shadow: 0 16px 48px rgba(0,0,0,0.4);">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 20px;">
+              <div>
+                <span style="font-family: var(--font-chakra); font-size: 0.75rem; letter-spacing: 0.14em; color: var(--magenta); font-weight: 700; text-transform: uppercase;">EDICIÓN DESTACADA</span>
+                <h3 style="font-family: var(--font-serif); font-size: clamp(1.4rem, 2.2vw, 1.9rem); color: #fff; margin: 4px 0 0;">Así se vivió el Congreso de Turismo Médico</h3>
+              </div>
+              <span class="badge-item" style="border-color: rgba(215, 179, 106, 0.4); color: var(--gold-bright);">COZUMEL · MÉXICO</span>
+            </div>
+            <div class="video-player-wrap" style="position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden; background: #000; box-shadow: 0 12px 36px rgba(0,0,0,0.5);">
+              <div class="yt-facade" data-video-id="NJXR_Ju_0i0" data-title="Así se vivió Cozumel - 10° Congreso de Turismo Médico">
+                <img class="yt-facade-img" src="assets/gallery/yt_NJXR_Ju_0i0.jpg" alt="Así se vivió Cozumel 2019" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/NJXR_Ju_0i0/hqdefault.jpg'" />
+                <div class="yt-facade-overlay"></div>
+                <button class="yt-play-btn" type="button" aria-label="Reproducir video Cozumel 2019">
+                  <svg viewBox="0 0 68 48" class="yt-play-svg">
+                    <path class="yt-play-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                    <path d="M 45,24 27,14 27,34" fill="#ffffff"></path>
+                  </svg>
+                </button>
+                <span class="yt-facade-badge">COZUMEL 2019</span>
+                <a href="https://www.youtube.com/watch?v=NJXR_Ju_0i0" target="_blank" rel="noopener noreferrer" class="yt-direct-pill" title="Abrir en YouTube">YouTube ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Grid: 7 Historical Editions -->
+          <div class="videos-grid">
+            <!-- 1. 9° Congreso Aguascalientes 2018 -->
+            <article class="video-card">
+              <div class="video-player-wrap">
+                <div class="yt-facade" data-video-id="Cwr8Tu3U5yg" data-title="9° Congreso de Turismo Médico Aguascalientes 2018">
+                  <img class="yt-facade-img" src="assets/gallery/yt_Cwr8Tu3U5yg.jpg" alt="9° Congreso Aguascalientes 2018" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/Cwr8Tu3U5yg/hqdefault.jpg'" />
+                  <div class="yt-facade-overlay"></div>
+                  <button class="yt-play-btn" type="button" aria-label="Reproducir video Aguascalientes 2018">
+                    <svg viewBox="0 0 68 48" class="yt-play-svg">
+                      <path class="yt-play-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                      <path d="M 45,24 27,14 27,34" fill="#ffffff"></path>
+                    </svg>
+                  </button>
+                  <span class="yt-facade-badge">AGS 2018</span>
+                  <a href="https://www.youtube.com/watch?v=Cwr8Tu3U5yg" target="_blank" rel="noopener noreferrer" class="yt-direct-pill" title="Abrir en YouTube">YouTube ↗</a>
+                </div>
+              </div>
+              <div class="video-card-body">
+                <span class="video-edition-tag">AGUASCALIENTES 2018</span>
+                <h4 class="video-card-title">9° Congreso de Turismo Médico Aguascalientes 2018</h4>
+              </div>
+            </article>
+
+            <!-- 2. Promocional 9° Congreso Aguascalientes -->
+            <article class="video-card">
+              <div class="video-player-wrap">
+                <div class="yt-facade" data-video-id="t3XD5IyobL0" data-title="Promocional 9° Congreso Aguascalientes 2018">
+                  <img class="yt-facade-img" src="assets/gallery/yt_t3XD5IyobL0.jpg" alt="Promocional Aguascalientes 2018" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/t3XD5IyobL0/hqdefault.jpg'" />
+                  <div class="yt-facade-overlay"></div>
+                  <button class="yt-play-btn" type="button" aria-label="Reproducir video Promocional 2018">
+                    <svg viewBox="0 0 68 48" class="yt-play-svg">
+                      <path class="yt-play-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                      <path d="M 45,24 27,14 27,34" fill="#ffffff"></path>
+                    </svg>
+                  </button>
+                  <span class="yt-facade-badge">PROMO 2018</span>
+                  <a href="https://www.youtube.com/watch?v=t3XD5IyobL0" target="_blank" rel="noopener noreferrer" class="yt-direct-pill" title="Abrir en YouTube">YouTube ↗</a>
+                </div>
+              </div>
+              <div class="video-card-body">
+                <span class="video-edition-tag">PROMOCIONAL 2018</span>
+                <h4 class="video-card-title">Promocional 9° Congreso de Turismo Médico</h4>
+              </div>
+            </article>
+
+            <!-- 3. VIII Congreso Ciudad Juárez 2017 -->
+            <article class="video-card">
+              <div class="video-player-wrap">
+                <div class="yt-facade" data-video-id="dKT7BedChaE" data-title="VIII Congreso Ciudad Juárez 2017">
+                  <img class="yt-facade-img" src="assets/gallery/yt_dKT7BedChaE.jpg" alt="VIII Congreso Ciudad Juárez 2017" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/dKT7BedChaE/hqdefault.jpg'" />
+                  <div class="yt-facade-overlay"></div>
+                  <button class="yt-play-btn" type="button" aria-label="Reproducir video Ciudad Juárez 2017">
+                    <svg viewBox="0 0 68 48" class="yt-play-svg">
+                      <path class="yt-play-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                      <path d="M 45,24 27,14 27,34" fill="#ffffff"></path>
+                    </svg>
+                  </button>
+                  <span class="yt-facade-badge">JUÁREZ 2017</span>
+                  <a href="https://www.youtube.com/watch?v=dKT7BedChaE" target="_blank" rel="noopener noreferrer" class="yt-direct-pill" title="Abrir en YouTube">YouTube ↗</a>
+                </div>
+              </div>
+              <div class="video-card-body">
+                <span class="video-edition-tag">CIUDAD JUÁREZ 2017</span>
+                <h4 class="video-card-title">VIII Congreso de Turismo Médico Ciudad Juárez</h4>
+              </div>
+            </article>
+
+            <!-- 4. VII Congreso de Turismo Médico 2016 -->
+            <article class="video-card">
+              <div class="video-player-wrap">
+                <div class="yt-facade" data-video-id="eoQA3Xq3Wok" data-title="VII Congreso de Turismo Médico 2016">
+                  <img class="yt-facade-img" src="assets/gallery/yt_eoQA3Xq3Wok.jpg" alt="VII Congreso de Turismo Médico 2016" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/eoQA3Xq3Wok/hqdefault.jpg'" />
+                  <div class="yt-facade-overlay"></div>
+                  <button class="yt-play-btn" type="button" aria-label="Reproducir video Tijuana 2016">
+                    <svg viewBox="0 0 68 48" class="yt-play-svg">
+                      <path class="yt-play-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                      <path d="M 45,24 27,14 27,34" fill="#ffffff"></path>
+                    </svg>
+                  </button>
+                  <span class="yt-facade-badge">EDICIÓN 2016</span>
+                  <a href="https://www.youtube.com/watch?v=eoQA3Xq3Wok" target="_blank" rel="noopener noreferrer" class="yt-direct-pill" title="Abrir en YouTube">YouTube ↗</a>
+                </div>
+              </div>
+              <div class="video-card-body">
+                <span class="video-edition-tag">EDICIÓN 2016</span>
+                <h4 class="video-card-title">VII Congreso de Turismo Médico 2016</h4>
+              </div>
+            </article>
+
+            <!-- 5. Congreso 2015 -->
+            <article class="video-card">
+              <div class="video-player-wrap">
+                <div class="yt-facade" data-video-id="hF3iMP_RLLA" data-title="Congreso de Turismo Médico 2015">
+                  <img class="yt-facade-img" src="assets/gallery/yt_hF3iMP_RLLA.jpg" alt="Congreso de Turismo Médico 2015" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/hF3iMP_RLLA/hqdefault.jpg'" />
+                  <div class="yt-facade-overlay"></div>
+                  <button class="yt-play-btn" type="button" aria-label="Reproducir video Congreso 2015">
+                    <svg viewBox="0 0 68 48" class="yt-play-svg">
+                      <path class="yt-play-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                      <path d="M 45,24 27,14 27,34" fill="#ffffff"></path>
+                    </svg>
+                  </button>
+                  <span class="yt-facade-badge">EDICIÓN 2015</span>
+                  <a href="https://www.youtube.com/watch?v=hF3iMP_RLLA" target="_blank" rel="noopener noreferrer" class="yt-direct-pill" title="Abrir en YouTube">YouTube ↗</a>
+                </div>
+              </div>
+              <div class="video-card-body">
+                <span class="video-edition-tag">EDICIÓN 2015</span>
+                <h4 class="video-card-title">Congreso de Turismo Médico 2015</h4>
+              </div>
+            </article>
+
+            <!-- 6. Cumbre Global 2014 -->
+            <article class="video-card">
+              <div class="video-player-wrap">
+                <div class="yt-facade" data-video-id="ZMwl7bMlxTI" data-title="Cumbre Global de Turismo Médico 2014">
+                  <img class="yt-facade-img" src="assets/gallery/yt_ZMwl7bMlxTI.jpg" alt="Cumbre Global de Turismo Médico 2014" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/ZMwl7bMlxTI/hqdefault.jpg'" />
+                  <div class="yt-facade-overlay"></div>
+                  <button class="yt-play-btn" type="button" aria-label="Reproducir video Cumbre 2014">
+                    <svg viewBox="0 0 68 48" class="yt-play-svg">
+                      <path class="yt-play-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                      <path d="M 45,24 27,14 27,34" fill="#ffffff"></path>
+                    </svg>
+                  </button>
+                  <span class="yt-facade-badge">CUMBRE 2014</span>
+                  <a href="https://www.youtube.com/watch?v=ZMwl7bMlxTI" target="_blank" rel="noopener noreferrer" class="yt-direct-pill" title="Abrir en YouTube">YouTube ↗</a>
+                </div>
+              </div>
+              <div class="video-card-body">
+                <span class="video-edition-tag">CUMBRE GLOBAL 2014</span>
+                <h4 class="video-card-title">Cumbre Global de Turismo Médico 2014</h4>
+              </div>
+            </article>
+
+            <!-- 7. Congreso 2010 -->
+            <article class="video-card">
+              <div class="video-player-wrap">
+                <div class="yt-facade" data-video-id="0kET7gA97SY" data-title="Congreso de Turismo Médico 2010">
+                  <img class="yt-facade-img" src="assets/gallery/yt_0kET7gA97SY.jpg" alt="Congreso de Turismo Médico 2010" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/0kET7gA97SY/hqdefault.jpg'" />
+                  <div class="yt-facade-overlay"></div>
+                  <button class="yt-play-btn" type="button" aria-label="Reproducir video Congreso 2010">
+                    <svg viewBox="0 0 68 48" class="yt-play-svg">
+                      <path class="yt-play-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                      <path d="M 45,24 27,14 27,34" fill="#ffffff"></path>
+                    </svg>
+                  </button>
+                  <span class="yt-facade-badge">FUNDACIONAL 2010</span>
+                  <a href="https://www.youtube.com/watch?v=0kET7gA97SY" target="_blank" rel="noopener noreferrer" class="yt-direct-pill" title="Abrir en YouTube">YouTube ↗</a>
+                </div>
+              </div>
+              <div class="video-card-body">
+                <span class="video-edition-tag">EDICIÓN FUNDACIONAL 2010</span>
+                <h4 class="video-card-title">Congreso de Turismo Médico 2010</h4>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           PHOTOS SECTION: AUTHENTIC PHOTOGRAPHIC ARCHIVE
+           ============================================================ -->
+      <section class="gallery-photos-section" id="fotos">
+        <div class="container">
+          <div class="section-meta">
+            <span class="section-number">FOTOTECA OFICIAL</span>
+            <span class="section-tag">GALERÍA FOTOGRÁFICA</span>
+          </div>
+
+          <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap;">
+            <div>
+              <p class="eyebrow dark-eyebrow">REGISTRO VISUAL · EVENTOS, STANDS &amp; NEGOCIOS</p>
+              <h2 class="editorial-headline">
+                Momentos que definieron<br />
+                <em class="headline-accent">la industria del turismo médico.</em>
+              </h2>
+            </div>
+            <p style="font-family: var(--font-sans); color: var(--ink-secondary); max-width: 480px; margin: 0;">
+              Haz clic sobre cualquier imagen para apreciarla en pantalla completa y conocer detalles del momento histórico.
+            </p>
+          </div>
+
+          <!-- Interactive Filter Tabs -->
+          <div class="gallery-filter-tabs" id="galleryFilterTabs" role="tablist">
+            <button class="gallery-filter-btn active" data-filter="all" type="button">Todas las Ediciones</button>
+            <button class="gallery-filter-btn" data-filter="2019" type="button">Cozumel 2019</button>
+            <button class="gallery-filter-btn" data-filter="2018" type="button">Aguascalientes 2018</button>
+            <button class="gallery-filter-btn" data-filter="2017" type="button">Ciudad Juárez 2017</button>
+            <button class="gallery-filter-btn" data-filter="b2b" type="button">Citas B2B &amp; Networking</button>
+            <button class="gallery-filter-btn" data-filter="expo" type="button">Stands &amp; Expo</button>
+          </div>
+
+          <!-- Photos Grid -->
+          <div class="gallery-photo-grid" id="galleryGrid">
+            <!-- 2019: Inauguración -->
+            <div class="photo-card" data-category="2019 b2b" tabindex="0" role="button" aria-label="Ver imagen: Inauguración Oficial Cozumel 2019">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2019_inauguracion.jpg" alt="Inauguración Oficial Cozumel 2019" loading="lazy" />
+                <span class="photo-year-badge">COZUMEL 2019</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Inauguración Oficial del Congreso</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2019: Recinto Plenario -->
+            <div class="photo-card" data-category="2019" tabindex="0" role="button" aria-label="Ver imagen: Recinto Plenario Cozumel 2019">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2019_recinto.jpg" alt="Recinto Plenario Cozumel 2019" loading="lazy" />
+                <span class="photo-year-badge">COZUMEL 2019</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Recinto Plenario del Congreso</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2019: Conferencias -->
+            <div class="photo-card" data-category="2019" tabindex="0" role="button" aria-label="Ver imagen: Conferencias Magistrales 2019">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2019_conferencias.jpg" alt="Conferencias Magistrales 2019" loading="lazy" />
+                <span class="photo-year-badge">COZUMEL 2019</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Conferencias Magistrales</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2019: Stands -->
+            <div class="photo-card" data-category="2019 expo" tabindex="0" role="button" aria-label="Ver imagen: Pabellón de Stands Cozumel 2019">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2019_stands.jpg" alt="Pabellón de Stands Cozumel 2019" loading="lazy" />
+                <span class="photo-year-badge">COZUMEL 2019</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Pabellón de Stands Comerciales</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2019: Citas B2B -->
+            <div class="photo-card" data-category="2019 b2b" tabindex="0" role="button" aria-label="Ver imagen: Citas de Negocios B2B 2019">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2019_b2b.jpg" alt="Citas de Negocios B2B 2019" loading="lazy" />
+                <span class="photo-year-badge">COZUMEL 2019</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Citas de Negocios en Turismo Médico</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2019: Networking -->
+            <div class="photo-card" data-category="2019 b2b" tabindex="0" role="button" aria-label="Ver imagen: Networking y Vinculación 2019">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2019_networking.jpg" alt="Networking y Vinculación 2019" loading="lazy" />
+                <span class="photo-year-badge">COZUMEL 2019</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Networking y Delegaciones</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2018: Inauguración Aguascalientes -->
+            <div class="photo-card" data-category="2018" tabindex="0" role="button" aria-label="Ver imagen: 9° Congreso Aguascalientes 2018">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2018_inauguracion.jpg" alt="9° Congreso Aguascalientes 2018" loading="lazy" />
+                <span class="photo-year-badge">AGUASCALIENTES 2018</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">9° Congreso Aguascalientes 2018</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2018: Auditorio -->
+            <div class="photo-card" data-category="2018" tabindex="0" role="button" aria-label="Ver imagen: Auditorio Plenario 2018">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2018_auditorio.jpg" alt="Auditorio Plenario 2018" loading="lazy" />
+                <span class="photo-year-badge">AGUASCALIENTES 2018</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Auditorio Plenario del Congreso</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2018: Turismo de Salud -->
+            <div class="photo-card" data-category="2018 b2b" tabindex="0" role="button" aria-label="Ver imagen: Delegaciones Internacionales 2018">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2018_turismo_salud.jpg" alt="Delegaciones Internacionales 2018" loading="lazy" />
+                <span class="photo-year-badge">AGUASCALIENTES 2018</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Delegaciones de Turismo de Salud</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2018: Stands -->
+            <div class="photo-card" data-category="2018 expo" tabindex="0" role="button" aria-label="Ver imagen: Expo Comercial 2018">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2018_stands.jpg" alt="Expo Comercial 2018" loading="lazy" />
+                <span class="photo-year-badge">AGUASCALIENTES 2018</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Expo Comercial Aguascalientes</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2017: Ciudad Juárez -->
+            <div class="photo-card" data-category="2017" tabindex="0" role="button" aria-label="Ver imagen: VIII Congreso Ciudad Juárez 2017">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2017_juarez.jpg" alt="VIII Congreso Ciudad Juárez 2017" loading="lazy" />
+                <span class="photo-year-badge">CIUDAD JUÁREZ 2017</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">VIII Congreso Ciudad Juárez 2017</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2017: Panel de Expertos -->
+            <div class="photo-card" data-category="2017" tabindex="0" role="button" aria-label="Ver imagen: Panel de Expertos 2017">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2017_panel.jpg" alt="Panel de Expertos 2017" loading="lazy" />
+                <span class="photo-year-badge">CIUDAD JUÁREZ 2017</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Panel Internacional de Expertos</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2017: Mesas de Negocios -->
+            <div class="photo-card" data-category="2017 b2b" tabindex="0" role="button" aria-label="Ver imagen: Mesas de Negocios Bilaterales 2017">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2017_b2b.jpg" alt="Mesas de Negocios Bilaterales 2017" loading="lazy" />
+                <span class="photo-year-badge">CIUDAD JUÁREZ 2017</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Mesas de Negocios Bilaterales B2B</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2016: Plenario -->
+            <div class="photo-card" data-category="b2b" tabindex="0" role="button" aria-label="Ver imagen: VII Congreso de Turismo Médico 2016">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2016_plenario.jpg" alt="VII Congreso de Turismo Médico 2016" loading="lazy" />
+                <span class="photo-year-badge">EDICIÓN 2016</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Sesiones Plenarias 2016</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2015: Personalidades -->
+            <div class="photo-card" data-category="b2b" tabindex="0" role="button" aria-label="Ver imagen: Personalidades & Directivos 2015">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2015_personalidades.jpg" alt="Personalidades & Directivos 2015" loading="lazy" />
+                <span class="photo-year-badge">EDICIÓN 2015</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Personalidades y Directivos</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+
+            <!-- 2015: Citas B2B -->
+            <div class="photo-card" data-category="b2b expo" tabindex="0" role="button" aria-label="Ver imagen: Encuentros de Negocios 2015">
+              <div class="photo-img-wrap">
+                <img src="assets/gallery/galeria_2015_b2b.jpg" alt="Encuentros de Negocios 2015" loading="lazy" />
+                <span class="photo-year-badge">EDICIÓN 2015</span>
+              </div>
+              <div class="photo-card-caption">
+                <h4 class="photo-card-title">Encuentros de Negocios 2015</h4>
+                <div class="photo-zoom-icon">🔍</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA to 2026 Edition -->
+      <section style="padding: 60px 0; background: linear-gradient(145deg, #f0ebd9, #dfd7c5); border-top: 1px solid rgba(6, 26, 43, 0.08);">
+        <div class="container text-center">
+          <p class="eyebrow dark-eyebrow">SÉ PARTE DE LA PRÓXIMA EDICIÓN HISTÓRICA</p>
+          <h2 class="editorial-headline" style="font-size: clamp(28px, 3.5vw, 44px);">
+            Vive la 15ª Edición · México 2026<br />
+            <em class="headline-accent">en el Complejo FICOTRECE.</em>
+          </h2>
+          <p style="font-family: var(--font-sans); color: var(--ink-secondary); max-width: 620px; margin: 14px auto 30px;">
+            Aguascalientes 2026 será la edición más grande de nuestra historia: 86 hectáreas de infraestructura, compradores internacionales y conferencistas de talla mundial.
+          </p>
+          <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+            <a href="sede.html" class="button ghost">
+              <span>CONOCER SEDE FICOTRECE</span>
+              <span class="btn-arrow">→</span>
+            </a>
+            <button class="button primary btn-register-trigger" type="button" data-type="Registro General">
+              <span>SOLICITAR MI LUGAR AHORA</span>
+              <span class="btn-arrow">→</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ============================================================
+         COMMON SITE FOOTER (100% Consistent with Official Website)
+         4-Column Neomorphic Widget Slab + Official YouTube Video Embed
+         ============================================================ -->
+    <footer class="site-footer has-smoke-bg">
+      <!-- Interactive Section Ambient Smoke Backdrop -->
+      <div class="smoke-section-backdrop" aria-hidden="true"></div>
+      <div class="container footer-main-grid">
+        <!-- Col 1: Brand & Identity -->
+        <div class="footer-col footer-col-brand">
+          <a href="index.html#top" class="footer-brand-link" aria-label="15° Congreso de Turismo Médico">
+            <img src="assets/brand_logo_600.png" alt="Congreso de Turismo Médico" class="footer-logo-img" width="240" height="36" />
+          </a>
+          <p class="footer-brand-desc">
+            El punto de encuentro más importante de Latinoamérica para concretar alianzas estratégicas, pabellón de exposición comercial y citas de negocios de salud internacional.
+          </p>
+          <div class="footer-social-links">
+            <a href="mailto:relacionespublicas@congresodeturismomedico.com" class="footer-social-icon" aria-label="Correo electrónico">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+            <a href="http://www.facebook.com/CumbreDeNegociosEnTurismoMedico/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Facebook Oficial">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95C18.05 21.45 22 17.19 22 12z"/></svg>
+            </a>
+            <a href="http://instagram.com/congresodeturismo_medico" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Instagram Oficial">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Mapa del Sitio -->
+        <div class="footer-col footer-col-links">
+          <h4 class="footer-col-title">MAPA DEL SITIO</h4>
+          <span class="footer-title-rule"></span>
+          <ul class="footer-nav-list">
+            <li><a href="index.html#top">Inicio</a></li>
+            <li><a href="index.html#business">Negocios B2B</a></li>
+            <li><a href="agenda.html">Agenda de Conferencias</a></li>
+            <li><a href="expo.html">Pabellón Expo</a></li>
+            <li><a href="sede.html">Sede Oficial FICOTRECE</a></li>
+            <li><a href="galeria.html">Galería Histórica</a></li>
+            <li><a href="index.html#contacto">Registro &amp; Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: YouTube Video Embed (Official Edition) -->
+        <div class="footer-col footer-col-video">
+          <h4 class="footer-col-title">ASÍ SE VIVIÓ EL CONGRESO</h4>
+          <span class="footer-title-rule"></span>
+          <p class="footer-video-sub">Revive los mejores momentos de nuestras ediciones anteriores:</p>
+          <div class="footer-video-frame-wrap">
+            <div class="yt-facade footer-yt-facade" data-video-id="NJXR_Ju_0i0" data-title="Así se vivió el Congreso de Turismo Médico">
+              <img class="yt-facade-img" src="assets/gallery/yt_NJXR_Ju_0i0.jpg" alt="Así se vivió el Congreso de Turismo Médico" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/NJXR_Ju_0i0/hqdefault.jpg'" />
+              <div class="yt-facade-overlay"></div>
+              <button class="yt-play-btn" type="button" aria-label="Reproducir video oficial Cozumel 2019">
+                <svg viewBox="0 0 68 48" class="yt-play-svg">
+                  <path class="yt-play-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+                  <path d="M 45,24 27,14 27,34" fill="#ffffff"></path>
+                </svg>
+              </button>
+              <span class="yt-facade-badge">COZUMEL 2019</span>
+              <a href="https://www.youtube.com/watch?v=NJXR_Ju_0i0" target="_blank" rel="noopener noreferrer" class="yt-direct-pill" title="Abrir en YouTube">
+                <span>YouTube</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 4: Contacto Oficial -->
+        <div class="footer-col footer-col-contact">
+          <h4 class="footer-col-title">CONTACTO</h4>
+          <span class="footer-title-rule"></span>
+          <div class="footer-contact-items">
+            <p class="footer-phone-lead">
+              <span class="contact-lbl">TELÉFONO DIRECTO:</span><br />
+              <a href="tel:5530833864" class="footer-phone-link">+52 1 (55) 3083 3864</a>
+            </p>
+            <p class="footer-email-lead">
+              <span class="contact-lbl">CORREO ELECTRÓNICO:</span><br />
+              <a href="mailto:relacionespublicas@congresodeturismomedico.com" class="footer-email-link">relacionespublicas@congresodeturismomedico.com</a>
+            </p>
+            <p class="footer-hours-lead">
+              <span class="contact-lbl">HORARIO DE ATENCIÓN:</span><br />
+              <span>Lun - Sáb 10:00 A.M. a 6:00 P.M.</span>
+            </p>
+            <button class="button primary footer-register-btn btn-register-trigger" type="button" data-type="Registro General">
+              <span>SOLICITAR REGISTRO</span>
+              <span class="btn-arrow">→</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Sub-Footer Bar -->
+      <div class="footer-bottom-bar">
+        <div class="container footer-bottom-container">
+          <div class="footer-copy-text">
+            © 2026 CONGRESO DE TURISMO MÉDICO · 15ª EDICIÓN · MÉXICO · TODOS LOS DERECHOS RESERVADOS
+          </div>
+          <a class="back-to-top" href="#top" id="backToTopBtn">
+            <span>VOLVER ARRIBA</span>
+            <span class="arrow-up" aria-hidden="true">↑</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Interactive Registration & Inquiry Modal Dialog -->
+    <div class="modal-backdrop" id="registerModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-dialog">
+        <button class="modal-close" id="modalCloseBtn" aria-label="Cerrar ventana emergente">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+
+        <div class="modal-body">
+          <div class="modal-header">
+            <p class="eyebrow gold-eyebrow">15ª EDICIÓN · 2 &amp; 3 DE DICIEMBRE 2026</p>
+            <h3 class="modal-title" id="modalTitle">Solicitud de Registro al Congreso</h3>
+            <p class="modal-desc">
+              Deja tus datos para recibir informes sobre stands comerciales, conferencias o agenda B2B. También puedes comunicarte al <strong>(55) 3083 3864</strong>.
+            </p>
+          </div>
+
+          <form class="modal-form" id="registrationForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="regName">Nombre completo *</label>
+                <input type="text" id="regName" name="name" required placeholder="Tu nombre completo" />
+              </div>
+              <div class="form-group">
+                <label for="regEmail">Correo electrónico *</label>
+                <input type="email" id="regEmail" name="email" required placeholder="nombre@correo.com" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="regOrg">Empresa / Institución Médica *</label>
+                <input type="text" id="regOrg" name="organization" required placeholder="Hospital, Clínica o Empresa" />
+              </div>
+              <div class="form-group">
+                <label for="regRole">Modalidad de Interés *</label>
+                <select id="regRole" name="role" required>
+                  <option value="Registro General" selected>Registro General</option>
+                  <option value="Registro Stand">Registro Stand de Exposición</option>
+                  <option value="Citas de Negocios B2B">Encuentros de Negocios B2B</option>
+                  <option value="Solo Conferencias">Solo Conferencias Magistrales</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="button primary modal-submit-btn" type="submit">
+                <span>ENVIAR SOLICITUD</span>
+                <span class="btn-arrow">→</span>
+              </button>
+            </div>
+          </form>
+
+          <div class="modal-success" id="modalSuccessState" style="display:none;">
+            <h3>¡Solicitud Enviada con Éxito!</h3>
+            <p>Hemos recibido tus datos. Un asesor del comité organizador se comunicará contigo a la brevedad.</p>
+            <button class="button primary" id="successCloseBtn" type="button">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Lightbox Modal -->
+    <div class="modal-backdrop" id="imageLightbox" aria-hidden="true" role="dialog" aria-modal="true" style="display: none; align-items: center; justify-content: center;">
+      <div style="position: relative; max-width: 90vw; max-height: 90vh; display: flex; flex-direction: column; align-items: center;">
+        <button class="modal-close" id="lightboxCloseBtn" aria-label="Cerrar imagen" style="position: absolute; top: -45px; right: 0; color: #fff;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+        <img id="lightboxImg" src="" alt="Vista ampliada" style="max-width: 100%; max-height: 80vh; object-fit: contain; border-radius: 12px; box-shadow: 0 16px 48px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.2);" />
+        <p id="lightboxCaption" style="font-family: var(--font-serif); font-size: 1.1rem; color: #fff; margin-top: 14px; text-align: center; text-shadow: 0 2px 4px rgba(0,0,0,0.8);"></p>
+      </div>
+    </div>
+
+    <!-- Floating Mobile Back To Top Button -->
+    <button class="mobile-back-to-top" id="mobileBackToTop" type="button" aria-label="Volver arriba">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M18 15l-6-6-6 6"/>
+      </svg>
+    </button>
+
+  </div><!-- /.site -->
+
+  <!-- Lenis Smooth Scroll Engine -->
+  <script src="assets/lenis.min.js"></script>
+  <!-- Main Script -->
+  <script src="script.js"></script>
+
+  <!-- Interactive Lightbox & Category Filtering Logic -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Gallery Filtering
+      const filterBtns = document.querySelectorAll('.gallery-filter-btn');
+      const photoCards = document.querySelectorAll('.photo-card');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const filter = btn.getAttribute('data-filter');
+
+          photoCards.forEach(card => {
+            if (filter === 'all') {
+              card.style.display = 'flex';
+            } else {
+              const categories = card.getAttribute('data-category') || '';
+              if (categories.includes(filter)) {
+                card.style.display = 'flex';
+              } else {
+                card.style.display = 'none';
+              }
+            }
+          });
+        });
+      });
+
+      // 2. Lightbox Modal
+      const lightbox = document.getElementById('imageLightbox');
+      const lightboxImg = document.getElementById('lightboxImg');
+      const lightboxCaption = document.getElementById('lightboxCaption');
+      const lightboxClose = document.getElementById('lightboxCloseBtn');
+
+      photoCards.forEach(card => {
+        card.addEventListener('click', () => {
+          const img = card.querySelector('img');
+          const title = card.querySelector('.photo-card-title')?.innerText || '';
+          if (img && lightbox && lightboxImg) {
+            lightboxImg.src = img.src;
+            lightboxImg.alt = img.alt;
+            if (lightboxCaption) lightboxCaption.innerText = title;
+            lightbox.style.display = 'flex';
+            lightbox.setAttribute('aria-hidden', 'false');
+          }
+        });
+      });
+
+      if (lightboxClose && lightbox) {
+        lightboxClose.addEventListener('click', () => {
+          lightbox.style.display = 'none';
+          lightbox.setAttribute('aria-hidden', 'true');
+        });
+
+        lightbox.addEventListener('click', (e) => {
+          if (e.target === lightbox) {
+            lightbox.style.display = 'none';
+            lightbox.setAttribute('aria-hidden', 'true');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

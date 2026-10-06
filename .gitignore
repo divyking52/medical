@@ -1,0 +1,12 @@
+node_modules/
+.edge_temp*
+screenshots/
+tmp_profile/
+*.log
+*.zip
+medical-tourism-congress-export/
+export/
+gemini_generated_video_original_24fps.mp4
+scripts/*.png
+stratum/
+
