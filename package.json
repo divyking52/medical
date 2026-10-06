@@ -1,8 +1,5 @@
 {
-  "dependencies": {
-    "ffmpeg-static": "^5.3.0"
-  },
-  "devDependencies": {
-    "vercel": "^62.4.0"
-  }
+  "name": "medical-tourism-congress",
+  "version": "1.0.0",
+  "private": true
 }
